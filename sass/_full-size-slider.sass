@@ -1,0 +1,100 @@
+.full-size-slider
+	width: 100%
+	min-height: 100vh
+
+.full-size-slide-logo
+	img
+		max-height: 100%
+		max-width: 100%
+.full-size-slide
+	width: 100%
+	// height: 100vh
+	position: relative
+
+
+
+.full-size-slide-bg
+	position: absolute
+	width: 100%
+	height: 100%
+	background-position: center
+	background-size: cover
+	background-repeat: no-repeat
+	z-index: 1
+
+.full-size-slider
+	.slick-arrow
+		z-index: 10
+		background-color: #000000
+		width: 40px
+		height: 68px
+		&:hover
+			&:before
+				color: $ac_red
+		&:before
+			font-family: "icomoon"
+			font-size: 30px
+			color: #fff
+			transition: .5s ease
+			opacity: 1
+
+	.slick-prev
+		left: 0
+		&:before
+			content: "\e903"
+	.slick-next
+		right: 0
+		&:before
+			content: "\e902"
+	.slick-dots
+		bottom: 15%
+		li
+			margin: 0
+			button
+				width: 15px
+				height: 15px
+				padding: 0
+				&:before
+					width: 12px
+					content: ""
+					height: 12px
+					background-color: #222222
+					border-radius: 100%
+					opacity: 1
+		.slick-active
+			button
+				&:before
+					background-color: #c1272c
+.full-size-slide-content
+	position: relative
+	z-index: 2
+	// padding-top: 110px
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: center
+	min-height: calc(100vh - 70px)
+	padding: 0 95px
+.full-size-slide-title
+	font-size: 40px
+	font-weight: 900
+	margin: 15px 0 20px
+	color: #000
+.full-size-slide-description
+	margin: 0 0 30px
+	font-weight: 300
+	color: #000
+	text-transform: uppercase
+	font-size: 40px
+	text-align: center
+
+.slide-404
+	h1
+		font-size: 72px
+		font-weight: 900
+		color: #fff
+		margin: 0 0 35px
+		text-transform: uppercase
+	.full-size-slide-description
+		color: $ac_red
+		text-transform: none

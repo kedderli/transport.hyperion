@@ -1,0 +1,578 @@
+.tabs-header, .tabs-subheader
+	&.border-red
+		border-bottom: 7px solid $ac_red
+	ul
+		margin: 0
+		padding: 0
+		list-style-type: none
+		display: flex
+		align-items: center
+		justify-content: space-between
+		flex-grow: 1
+		li
+			display: inline-block
+			flex-grow: 1
+			flex-basis: 0
+			&:last-child
+				a
+					border-right: none
+			a
+				font-size: 18px
+				color: #fff
+				background-color: #888888
+				transition: .5s ease
+				cursor: pointer
+				display: flex
+				align-items: center
+				justify-content: center
+				min-height: 80px
+				text-align: center
+				text-transform: uppercase
+				border-right: 2px solid #fff
+				padding: 0px 10px
+				flex-direction: column
+				font-weight: bold
+				&:hover
+					text-decoration: none
+					background-color: $ac_red
+				&.active
+					background-color: $ac_red
+.tabs-header
+	margin-bottom: 30px
+
+.tab-outer
+	display: none
+	&.active
+		display: block
+
+.tabs-button
+	display: flex
+	background-color: $ac_red
+	width: 100%
+	height: 52px
+	float: left
+	align-items: center
+	justify-content: center
+	color: #fff
+	text-transform: uppercase
+	font-size: 16px
+	font-weight: bold
+	transition: .5s ease
+	padding: 0 15px
+	&:hover, &:focus
+		color: #fff
+		background-color: #8B1C20
+	i
+		display: inline-block
+		margin-left: 10px
+		font-size: 13px
+
+
+.tabs-subheader
+	ul
+		li
+			a
+				&.disabled
+					background-color: #888888 !important
+				font-size: 16px
+				min-height: 50px
+.tab-inner-content-wrapper
+	display: none
+	&.active
+		display: block
+	&.filtered
+		.vacancy-col
+			display: none
+.tab-inner-content
+	&.no-right
+		.tab-inner-content-item
+			.col-6
+				&:nth-child(even)
+
+.tab-inner-content-item
+	display: block
+	background-color: #d5d5d5
+	position: relative
+	&:after
+		content: ""
+		display: block
+		clear: both
+	&:before
+		width: 100%
+		display: block
+		content: ""
+		height: 16px
+		background-color: #d5d5d5
+		border-top: 2px solid #fff
+		position: absolute
+		bottom: -16px
+		left: 0
+
+.vacancy-col-title
+	font-size: 18px
+	color: $ac_red
+	text-transform: uppercase
+	font-weight: bold
+	margin-bottom: 5px
+.vacancy-col-subtitle
+	font-size: 16px
+	text-transform: uppercase
+	margin-bottom: 15px
+.vacancy-col-description
+	font-size: 16px
+	line-height: 1.3
+	margin-bottom: 15px
+.vacancy-col
+	padding: 30px !important
+	a
+		color: $ac_red
+		text-transform: uppercase
+		font-weight: bold
+		font-size: 16px
+		transition: .5s ease
+		&:hover
+			color: #941E22
+		i
+			display: inline-block
+			margin-left: 5px
+			font-size: 14px
+.tab-inner-content
+	margin-bottom: 45px
+	&.no-top
+		&:before
+			position: absolute
+			left: 0
+			bottom: 31px
+	&.no-bottom
+		&:before
+			display: none
+	&:before
+		width: 100%
+		display: block
+		content: ""
+		height: 16px
+		background-color: #d5d5d5
+		border-bottom: 2px solid #fff
+		border-top: 2px solid #fff
+.dropdown-bg
+	display: none
+.filter-wrapper
+	margin-top: 30px
+	position: relative
+	z-index: 2
+	&:after
+		width: 100%
+		display: block
+		content: ""
+		height: 16px
+		background-color: #d5d5d5
+		border-top: 2px solid #fff
+		border-bottom: 2px solid #fff
+		z-index: 22
+	ul
+		margin: 0
+		padding: 0
+		list-style-type: none
+		display: flex
+		flex-wrap: wrap
+		li
+			flex-grow: 1
+			flex-basis: 0
+			align-items: center
+			justify-content: center
+			border-right: 2px solid #fff
+			span
+				display: block
+			&:last-child
+				border-right: none
+			.checkbox
+				display: none
+				&:checked ~ .checkbox-label
+					background-color: $ac_red
+					color: #fff
+					&:after
+						opacity: 1
+			.checkbox-label
+				display: block
+				text-align: center
+				height: 91px
+				background-color: #d5d5d5
+				color: #000
+				font-size: 14px
+				font-weight: bold
+				text-transform: uppercase
+				padding: 10px
+				position: relative
+				cursor: pointer
+				transition: .5s ease
+				&:hover
+					background-color: $ac_red
+					color: #fff
+				&:before
+					width: 20px
+					height: 20px
+					border: 2px solid #888888
+					display: block
+					content: ""
+					position: absolute
+					bottom: 15px
+					left: 45%
+					pointer-events: all
+				&:after
+					width: 20px
+					height: 20px
+					background-color: #fff
+					display: block
+					content: "✓"
+					color: $ac_red !important
+					position: absolute
+					bottom: 15px
+					left: 45%
+					pointer-events: all
+					transition: .5s ease
+					opacity: 0
+
+.tab-row
+	height: 550px
+	&.height-auto
+		height: auto !important
+		&:before
+			display: none
+	&.button-row
+		.height-2
+			height: 30%
+		.height-3
+			height: 45%
+		.tabs-button
+			height: 10%
+
+.col
+	background-color: #d5d5d5
+	border-right: 2px solid #fff
+	border-bottom: 2px solid #fff
+	display: flex
+	float: left
+	align-items: center
+	justify-content: flex-start
+	flex-direction: column
+	text-align: center
+	padding: 15px
+	font-size: 15px
+	position: relative
+	overflow: hidden
+	&.white-block
+		background-color: #fff
+		text-align: left
+		h3
+			text-align: left
+			width: 100%
+		&:before
+			display: none
+	b
+		text-transform: uppercase
+		font-size: 16px
+	img
+		display: block
+		margin-bottom: 10px
+	&.content-center
+		justify-content: center
+	&.red-col
+		background-color: $ac_red
+		color: #fff
+		font-weight: bold
+		text-transform: uppercase
+		justify-content: center
+		.height-50
+			justify-content: center
+	&.no-padding
+		padding: 0 !important
+	.height-50
+		height: 50%
+		display: flex
+		align-items: center
+		justify-content: flex-start
+		flex-direction: column
+		border-bottom
+		border-bottom: 2px solid #fff
+		padding: 15px 15px
+
+		&.j-c-e
+			justify-content: flex-end
+		&:last-child
+			border-bottom: none
+	&.col-2
+		width: 16.6%
+	&.col-3
+		width: 25%
+	&.col-4
+		width: 33.3%
+	&.col-6
+		width: 50%
+	&.col-12
+		width: 100%
+	&.height-3
+		height: 50%
+		img
+			margin-bottom: 25px
+	&.height-2
+		height: 33.3%
+	&.height-6
+		height: 100%
+	&.height-1
+		height: 16.6%
+	&.no-bottom
+		border-bottom: none
+	&.no-right
+		border-right: none
+
+.social-links
+	margin: 0
+	padding: 0
+	list-style-type: none
+	font-weight: bold
+	color: #000
+	font-size: 22px
+	padding-bottom: 20px
+	li
+		display: inline-block
+		margin-right: 40px
+		margin-bottom: 10px
+		a
+			color: #000
+			i
+				display: inline-block
+				background-color: $ac_red
+				color: #fff
+				position: relative
+				top: -2px
+				margin-right: 10px
+				height: 25px
+				width: 25px
+				line-height: 25px
+				font-size: 14px
+				text-align: center
+		&:last-child
+			margin-right: 0
+.wpcf7-response-output
+	display: none !important
+
+.subscribe-form
+	background-color: $ac_red
+	min-height: 75px
+	padding: 20px
+	display: block
+	background-image: url(space.jpg)
+	background-repeat: no-repeat
+	background-position: top left
+	background-size: 400px
+	display: flex
+	align-items: center
+	justify-content: space-between
+	font-size: 18px
+	font-weight: bold
+	color: #fff
+	text-transform: uppercase
+	margin-bottom: 25px
+	span.wpcf7-not-valid-tip
+		font-weight: normal
+		display: block
+		position: absolute
+		font-size: 12px
+		color: #fff
+	.wpcf7-form-control-wrap
+		flex-grow: 1
+		display: block
+		input
+			width: 100%
+	input
+		background-color: transparent
+		border: 2px solid #fff
+		padding: 0 8px
+		height: 35px
+		line-height: 33px
+		&::placeholder
+			text-transform: uppercase
+			color: #fff
+			opacity: .3
+		&:focus
+			outline: none
+	label
+		margin-right: 40px
+	.button
+		margin-left: 20px
+
+
+
+.projects-row
+	background-color: #282828
+	min-height: 85vh
+	margin-bottom: 0
+	.tab-inner-content-item
+		background-color: #282828
+	.col
+		position: relative
+		border: none
+		padding: 0
+		height: 230px
+		overflow: hidden
+		display: flex
+		align-items: center
+		justify-content: center
+		&:hover
+			&:after, .title, a
+				opacity: 1 !important
+			.image
+				transform: scale(1.2)
+		&:after
+			content: ""
+			width: 100%
+			height: 100%
+			position: absolute
+			left: 0
+			top: 0
+			background-color: rgba(0,0,0,0.7)
+			transition: .5s ease
+			z-index: 1
+			transition: .5s ease
+			opacity: .7
+		.title
+			position: relative
+			z-index: 2
+			color: #fff
+			font-size: 24px
+			font-weight: bold
+			text-transform: uppercase
+			margin-bottom: 10px
+			transition: .5s ease
+			opacity: 0
+			padding: 0 15px
+		a
+			color: $ac_red
+			position: relative
+			z-index: 2
+			text-transform: uppercase
+			font-weight: bold
+			transition: .5s ease
+			font-size: 16px
+			opacity: 0
+			&:hover
+				color: #8c0f13
+			i
+				font-size: 14px
+				display: inline-block
+				margin-left: 8px
+		.image-wrapper
+			position: absolute
+			width: 100%
+			height: 100%
+			left: 0
+			top: 0
+			display: flex
+			align-items: center
+			justify-content: center
+			overflow: hidden
+			.image
+				width: 100%
+				height: 100%
+				background-position: center
+				background-size: cover
+				background-repeat: no-repeat
+				position: absolute
+				top: 0
+				transition: .5s ease
+				left: 0
+.col.filtered-item
+	display: none !important
+.tab-inner-content-wrapper
+	&.all
+		.col
+			&:after
+				opacity: 0
+	&.hover-all
+		.col
+			&:after
+				opacity: 0 !important
+	&.current
+		.col
+			&:after
+				opacity: 0.9
+		.col.current
+			&:after
+				opacity: 0
+	&.hover-current
+		.col
+			&:after
+				opacity: 0.7 !important
+		.col.current
+			&:after
+				opacity: 0 !important
+	&.communicate
+		.col
+			&:after
+				opacity: 0.9
+		.col.communicate
+			&:after
+				opacity: 0
+	&.hover-communicate
+		.col
+			&:after
+				opacity: 0.7 !important
+		.col.communicate
+			&:after
+				opacity: 0 !important
+	&.marketing
+		.col
+			&:after
+				opacity: 0.9
+		.col.marketing
+			&:after
+				opacity: 0
+	&.hover-marketing
+		.col
+			&:after
+				opacity: 0.7 !important
+		.col.marketing
+			&:after
+				opacity: 0 !important
+	&.picking
+		.col
+			&:after
+				opacity: 0.9
+		.col.picking
+			&:after
+				opacity: 0
+	&.hover-picking
+		.col
+			&:after
+				opacity: 0.7 !important
+		.col.picking
+			&:after
+				opacity: 0 !important
+	&.tech
+		.col
+			&:after
+				opacity: 0.9
+		.col.tech
+			&:after
+				opacity: 0
+	&.hover-tech
+		.col
+			&:after
+				opacity: 0.7 !important
+		.col.tech
+			&:after
+				opacity: 0 !important
+.vacancy_label
+	width: 100px
+	height: 25px
+	transform: rotate(37deg)
+	font-size: 15px
+	line-height: 25px
+	background: #5f5f5f
+	text-transform: uppercase
+	font-weight: 700
+	color: #fff
+	position: absolute
+	top: 4px
+	right: -31px
+	user-select: none

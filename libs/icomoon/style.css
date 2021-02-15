@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?pdnzeh');
+  src:  url('fonts/icomoon.eot?pdnzeh#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?pdnzeh') format('truetype'),
+    url('fonts/icomoon.woff?pdnzeh') format('woff'),
+    url('fonts/icomoon.svg?pdnzeh#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-user:before {
+  content: "\e90a";
+}
+.icon-icon-something:before {
+  content: "\e909";
+}
+.icon-instagram-symbol:before {
+  content: "\e900";
+}
+.icon-facebook-logo:before {
+  content: "\e901";
+}
+.icon-arrow-point-to-right:before {
+  content: "\e902";
+}
+.icon-arrowhead-thin-outline-to-the-left:before {
+  content: "\e903";
+}
+.icon-file-black-text-paper-sheet-symbol-with-one-folded-corner:before {
+  content: "\e904";
+}
+.icon-menu:before {
+  content: "\e905";
+}
+.icon-cancel:before {
+  content: "\e906";
+}
+.icon-telegram:before {
+  content: "\e907";
+}
+.icon-twitter-logo-silhouette:before {
+  content: "\e908";
+}

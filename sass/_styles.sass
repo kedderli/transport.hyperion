@@ -1,0 +1,450 @@
+body
+	opacity: 1
+	font-family: $DIN_C
+	font-weight: normal
+	font-size: 18px
+	background-image: url('texture.jpg')
+	overflow-x: hidden
+
+body.no-scroll
+	overflow: hidden !important
+.project-row
+	iframe
+		margin: 30px 0px
+		max-width: 100%
+	a
+		margin-top: 30px
+		font-size: 18px
+		text-transform: uppercase
+		color: $ac_red
+		font-weight: bold
+		display: inline-block
+.img-responsive
+	// height: 100%
+.ms-skin-default
+	.ms-nav-next, .ms-nav-prev
+		opacity: 1 !important
+		z-index: 10 !important
+		background: #000 !important
+		width: 40px !important
+		top: calc(50% - 34px) !important
+		height: 68px !important
+		display: block !important
+		line-height: 68px
+		margin-top: 0 !important
+		&:after
+			font-family: icomoon
+			font-size: 30px
+			color: #fff
+			transition: .5s ease
+			opacity: 1
+	.ms-nav-next
+		right: 0 !important
+		text-align: right
+		&:after
+			content: "\e902"
+	.ms-nav-prev
+		left: 0 !important
+		text-align: left
+		&:after
+			content: "\e903"
+
+.button
+	display: inline-block
+	line-height: 25px
+	min-height: 35px
+	padding: 3px 10px
+	border: 2px solid #000000
+	background-color: transparent
+	transition: .5s ease
+	text-transform: uppercase
+	font-size: 18px
+	font-weight: bold
+	text-align: center
+	min-width: 112px
+	color: #000
+	&:hover, &:focus
+		color: #fff
+		background-color: #000
+		text-decoration: none
+.button-white
+	border-color: #fff
+	color: #fff
+	&:hover, &:focus
+		background-color: #fff
+		color: #000
+
+.full-width-container
+	padding-top: 110px
+	.row100
+		padding: 0
+.ms-view
+	max-width: 100%
+.m-t-0
+	margin-top: 0 !important
+.m-t-10
+	margin-top: 10px !important
+.m-t-20
+	margin-top: 20px !important
+.m-t-30
+	margin-top: 30px !important
+.m-t-40
+	margin-top: 40px !important
+.m-t-50
+	margin-top: 50px !important
+
+.m-b-0
+	margin-bottom: 0 !important
+.m-b-10
+	margin-bottom: 10px !important
+.m-b-20
+	margin-bottom: 20px !important
+.m-b-30
+	margin-bottom: 30px !important
+.m-b-40
+	margin-bottom: 40px !important
+.m-b-50
+	margin-bottom: 50px !important
+
+
+
+.content-wrapper
+	position: relative
+	z-index: 2
+	min-height: calc(100vh - 70px)
+
+.main-wrapper
+	position: relative
+	min-height: 100vh
+	.header-wrapper
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+.inner-container
+	padding: 0 50px
+	max-width: 1300px
+	width: 100%
+	margin: 0 auto
+
+.right-content
+	float: right
+	width: 100%
+	padding: 110px 0 70px
+#particles-js
+	position: absolute
+	top: 0px
+	left: 0
+	height: calc(100% - 70px)
+	z-index: 3
+
+a
+	&:hover, &:focus
+		text-decoration: none
+p.red
+	margin: 0
+	font-size: 22px
+	color: $ac_red
+	text-transform: uppercase
+	font-weight: bold
+	// padding-left: 15px
+	margin-bottom: 35px
+	a
+		color: $ac_red
+		i
+			font-size: 20px
+			margin-right: 10px
+
+.red-divider
+	height: 4px
+	width: 100%
+	background-color: $ac_red
+	margin: 35px 0
+
+.row100
+	padding-left: 15px
+	display: flex
+	// align-items: flex-start
+	flex-wrap: wrap
+	.w100
+		min-width: 100%
+		position: relative
+	.w50
+		width: 50%
+		position: relative
+		&:nth-child(odd)
+			padding-right: 15px
+		&:nth-child(even)
+			padding-left: 15px
+p.small-text
+	margin: 0 0 30px
+	font-size: 18px
+	font-weight: 300
+div.small-text p
+	font-weight: 300
+	margin: 0 0 15px
+	font-size: 18px
+p.common-text
+	margin: 0 0 30px
+	font-size: 18px
+	font-weight: normal
+.descritpion-image
+	margin-bottom: 30px
+	height: 100%
+.text-right
+	text-align: right
+	margin: 30px 0 50px
+.red-table
+	font-size: 18px
+	border-bottom: 8px solid $ac_red
+	margin-bottom: 4px
+	width: 100%
+	td
+		width: 33%
+		padding: 8px 0px 8px 15px
+		border: 1px solid #fff
+		font-weight: 300
+		.color-cube-wrapper
+			display: flex
+			.color-cube
+				margin-right: 1.5%
+				height: 39px
+				width: 8.4%
+				&:nth-child(1)
+					background-color: rgba(80,80,80,1)
+				&:nth-child(2)
+					background-color: rgba(80,80,80,0.9)
+				&:nth-child(3)
+					background-color: rgba(80,80,80,0.8)
+				&:nth-child(4)
+					background-color: rgba(80,80,80,0.7)
+				&:nth-child(5)
+					background-color: rgba(80,80,80,0.6)
+				&:nth-child(6)
+					background-color: rgba(80,80,80,0.5)
+				&:nth-child(7)
+					background-color: rgba(80,80,80,0.4)
+				&:nth-child(8)
+					background-color: rgba(80,80,80,0.3)
+				&:nth-child(9)
+					background-color: rgba(80,80,80,0.2)
+				&:nth-child(10)
+					background-color: rgba(80,80,80,0.1)
+
+	thead
+		td
+			font-weight: bold
+	tbody
+		tr
+			td
+				background-color: rgba(0,0,0,0.1)
+				&:first-child
+					background-color: rgba(0,0,0,0.2)
+	thead
+		background-color: $ac_red
+		color: #fff
+		font-weight: bold
+
+.red-table.red-table-nth
+	tbody
+		tr
+			&:nth-child(odd)
+				td
+					background-color: rgba(0,0,0,0.1)
+			&:nth-child(even)
+				td
+					background-color: rgba(0,0,0,0.2)
+.red-table.color-cube-table
+	tbody
+		tr
+			td
+				&:nth-child(2), &:nth-child(3)
+					padding-left: 5px
+span.small
+	font-size: 12px
+	color: #898989
+	padding-left: 15px
+	margin-bottom: 35px
+	display: block
+
+.main-subtitle
+	text-transform: uppercase
+	font-size: 22px
+	font-weight: bold
+	color: $ac_red
+	margin: 0px 0 20px
+.main-title
+	text-transform: uppercase
+	font-size: 36px
+	font-weight: bold
+	color: $ac_red
+	margin: 0px 0 20px
+
+.subtitle
+	font-weight: bold
+	font-size: 18px
+	color: $ac_red
+	text-transform: uppercase
+	margin: 0 0 10px
+	a
+		color: $ac_red
+		transition: .5s ease
+		&:hover
+			color: #000
+	i
+		font-size: 16px
+		display: inline-block
+		margin-left: 10px
+.note
+	font-size: 70%
+	position: relative
+	top: -5px
+	display: inline-block
+	color: #000
+.unstyled-list
+	padding: 0
+	margin: 0 0 30px
+	list-style-type: none
+	li
+		padding-left: 15px
+
+.common-list
+	padding: 0
+	margin: 10px 0 20px
+	list-style-type: none
+	li
+		padding-left: 15px
+		position: relative
+		margin-bottom: 10px
+		font-size: 18px
+		font-weight: 300
+		&:after
+			content: ""
+			display: block
+			width: 7px
+			height: 7px
+			border-radius: 100%
+			position: absolute
+			left: 0
+			top: 9px
+			background-color: $ac_red
+
+.tiny-text
+	font-weight: 300
+	font-size: 14px
+.number-list
+	padding: 0px
+	margin: 0
+	counter-reset: item
+	li
+		display: block
+		padding-left: 15px
+		position: relative
+		margin-bottom: 10px
+		&:before
+			color: $ac_red
+			content: counter(item)
+			counter-increment: item
+			position: absolute
+			left: 0
+			top: 0px
+.entry-header, .page-header, .entry-header
+	display: none !important
+
+.step-list
+	width: 100%
+	display: flex
+	flex-direction: column
+	flex-wrap: wrap
+	padding: 0
+	margin: 0
+	list-style-type: none
+	height: 420px
+	li
+		width: 45%
+		display: flex
+		position: relative
+		margin-bottom: 20px
+		.step
+			display: inline-block
+			margin-right: 20px
+			color: $ac_red
+			min-width: 60px
+			position: relative
+			&:after
+				content: ""
+				width: 100%
+				height: 0
+				border-bottom: 1px dashed $ac_red
+				position: absolute
+				top: 55%
+				left: 5px
+				transform: rotate(-45deg)
+			.number
+				font-size: 60px
+				line-height: 1
+				display: block
+				font-weight: normal
+			.text
+				line-height: 1
+				text-align: right
+				display: block
+				font-size: 22px
+				font-weight: 500
+		b
+			text-transform: none
+			font-size: 18px
+			display: inline-block
+			width: 60%
+
+.partners-images
+	display: flex
+	align-items: center
+	justify-content: space-between
+	flex-wrap: wrap
+	margin-bottom: 30px
+	img
+		display: inline-block
+		margin: 0 5px 15px
+		filter: grayscale(1)
+		transition: .5s ease
+		&:hover
+			filter: grayscale(0)
+
+.vacancy-date
+	font-size: 24px
+	text-transform: uppercase
+	margin-bottom: 10px
+
+
+.project-link
+	.highlight
+		font-size: 18px
+		display: inline-block
+		color: $ac_red
+		font-weight: bold
+		text-transform: uppercase
+		i
+			font-size: 14px
+			display: inline-block
+			margin-left: 5px
+	b
+		font-size: 18px
+		color: #000
+
+.flex-box
+	display: flex !important
+	flex-wrap: wrap
+.tabs-button
+	cursor: pointer
+
+.vacancies
+	.tabs-button
+		border-bottom: 2px solid #fff
+	.hidden-item
+		display: none !important
+
+
+.vacancy-inner span
+	display: block
+	margin-bottom: 15px
