@@ -16,19 +16,19 @@
 <link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
 <link rel="alternate" type="application/rss+xml" title="Hyperion Strategy Group &raquo; Лента" href="https://hyperion-sg.ru/feed/" />
 <link rel="alternate" type="application/rss+xml" title="Hyperion Strategy Group &raquo; Лента комментариев" href="https://hyperion-sg.ru/comments/feed/" />
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
+<style type="text/css">
+	img.wp-smiley,
+	img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 .07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
 </style>
 <link rel='stylesheet' id='contact-form-7-css'  href='https://hyperion-sg.ru/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.7' type='text/css' media='all' />
 <link rel='stylesheet' id='twentyfifteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext' type='text/css' media='all' />
@@ -120,6 +120,10 @@ img.emoji {
 			margin-right: 15px;
 			height: 24px;
 		}
+		.header-menu {
+			padding-left: 31px!important;
+			padding-bottom: 57px !important;
+		}
 	</style>
 	<div class="mobile-bg"></div>
 		<div class="main-wrapper">
@@ -173,18 +177,18 @@ img.emoji {
 											<li id="" class="menu-item"><a href="#contacts">Контакты</a></li>
 										</ul>
 									</div>
-									<div class="mob_timer_wrap visible-xs">
+									<!--<div class="mob_timer_wrap visible-xs">
 										<span class="mob_timer_title">До старта программы:</span> <span class="mob_timer" id="countdown2"><span class="days"></span> <span class="hours"></span>:<span class="minutes"></span>:<span class="seconds"></span></span>
-									</div>
+									</div>-->
 									<div class="mob_pre_email visible-xs">
 										<a href="mailto:luch@hyperion-sg.ru">luch@hyperion-sg.ru</a>
 									</div>
 									<!-- <a class="button visible-xs" href="">Записаться на программу</a> -->
 									<div class="visible-xs"><a class="reg-button-mob" href="https://infraacademy.getcourse.ru/transport" target="_blank">Регистрация</a></div>
-									<div class="visible-xs"><a class="office-button-mob" href="https://infraacademy.getcourse.ru/transport" target="_blank"><img src="img/svg/persone_w.svg" alt=""><div>Личный кабинет</div></a></div>
+									<div class="visible-xs"><a class="office-button-mob" href="https://infraacademy.getcourse.ru/cms/system/login" target="_blank"><img src="img/svg/persone_w.svg" alt=""><div>Личный кабинет</div></a></div>
 								</nav>
 							</div>
-							<a class="office-button visible-lg" href="">Личный кабинет</a>
+							<a class="office-button visible-lg" href="https://infraacademy.getcourse.ru/cms/system/login">Личный кабинет</a>
 						</div>
 					</div>
 				</div>
@@ -224,6 +228,23 @@ img.emoji {
 				<!-- main -->
 
 				<!-- organizers -->
+					<style>
+						@media screen and (max-width: 1220px) {
+							.l_orgs_wrap {
+								margin-top: 20px;
+							}
+							.l_orgs_wrap span,
+							.l_partners_wrap span {
+								margin-bottom: 10px !important;
+							}
+							.l_orgs_logos_wrap {
+								height: auto!important;
+							}
+							.l_orgs {
+								padding-top: 0 !important;
+							}
+						}
+					</style>
 					<section class="center l_orgs">
 						<div class="l_orgs_wrap">
 							<span>Организаторы:</span>
@@ -278,6 +299,14 @@ img.emoji {
 				<!-- organizers -->
 
 				<!-- services -->
+					<style>
+						.rs__services .slick-disabled {
+							background-color: #d8dde7;
+						}
+						.rs__services_list li {
+							outline: none;
+						}
+					</style>
 					<section class="center rs__services sip__services transp__services section" id="about">
 						<h2 class="rs__section_heading sip__section_heading">
 							<span>ВИДЫ ОБЩЕСТВЕННОГО ТРАНСПОРТА В ПРОГРАММЕ</span>
@@ -318,6 +347,14 @@ img.emoji {
 				<!-- services -->
 
 				<!-- advantages -->
+					<style>
+						.rs__advantages .slick-disabled {
+							background-color: #F7F8FA;
+						}
+						.rs__advantages_counters-item {
+							outline: none;
+						}
+					</style>
 					<section class="center rs__advantages sip__advantages ikr__advantages transp__advantages gray_bg">
 						<h2 class="rs__section_heading sip__section_heading">
 							<span>ПРЕИМУЩЕСТВА ОБРАЗОВАТЕЛЬНОГО КУРСА</span>
@@ -659,10 +696,10 @@ img.emoji {
 										Обзор текущего состояния общественного транспорта, основные проблемы и перспективы развития
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -673,10 +710,10 @@ img.emoji {
 										Государственная политика и программы развития систем городского общественного транспорта, в том числе в рамках национальных проектов
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Бакирей Алексей Сергеевич,</strong> <br>Директор Департамента государственной политики в&nbsp;области автомобильного и&nbsp;городского пассажирского транспорта Министерства транспорта Российской Федерации
@@ -687,10 +724,10 @@ img.emoji {
 										Роль проектов ГЧП в сфере в общественного транспорта в жизни города, отношение публичной стороны к проектам ГЧП
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -701,10 +738,10 @@ img.emoji {
 										Актуальная практика применения механизмов ГЧП в общественном транспорте и тенденции развития рынка
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Бакирей Алексей Сергеевич,</strong> <br>Директор Департамента государственной политики в&nbsp;области автомобильного и&nbsp;городского пассажирского транспорта Министерства транспорта Российской Федерации
@@ -715,10 +752,10 @@ img.emoji {
 										Законодательная база и анализ перспективных изменений в законодательство о ГЧП и пассажирских перевозках
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -751,10 +788,10 @@ img.emoji {
 										Подготовка документов стратегического планирования и комплексной схемы организации дорожного движения
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -765,10 +802,10 @@ img.emoji {
 										Транспортное планирование и моделирование при реализации проектов ГЧП для городского пассажирского транспорта
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Бакирей Алексей Сергеевич,</strong> <br>Директор Департамента государственной политики в&nbsp;области автомобильного и&nbsp;городского пассажирского транспорта Министерства транспорта Российской Федерации
@@ -779,10 +816,10 @@ img.emoji {
 										Конструктивные особенности прокладки путей, способы обеспечения приоритета проезда общественного транспорта
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -793,10 +830,10 @@ img.emoji {
 										Критерии выбора инструментов ГЧП для организации общественного транспорта
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Бакирей Алексей Сергеевич,</strong> <br>Директор Департамента государственной политики в&nbsp;области автомобильного и&nbsp;городского пассажирского транспорта Министерства транспорта Российской Федерации
@@ -829,10 +866,10 @@ img.emoji {
 										Организационно-правовые модели реализации проектов по созданию, реконструкции, модернизации и техническому обслуживанию систем городского общественного транспорта
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -843,10 +880,10 @@ img.emoji {
 										Градостроительные, имущественные и земельные вопросы: вопросы подготовки градостроительной документации, сложности с формированием, изъятием и предоставлением земельных участков в трамвайных проектах
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Бакирей Алексей Сергеевич,</strong> <br>Директор Департамента государственной политики в&nbsp;области автомобильного и&nbsp;городского пассажирского транспорта Министерства транспорта Российской Федерации
@@ -857,10 +894,10 @@ img.emoji {
 										Специфика вовлечения в концессионные соглашения имущества унитарных предприятий, организаций с публичным участием, взаимодействие с этими организациями при реализации проекта
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -893,10 +930,10 @@ img.emoji {
 										Возможности бюджетного софинансирования и механизмы господдержки для создания и эксплуатации систем городского общественного транспорта
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -907,10 +944,10 @@ img.emoji {
 										Перевозки по регулируемым и нерегулируемым тарифам, учет льготных категорий граждан, субсидирование и тарифообразование
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Бакирей Алексей Сергеевич,</strong> <br>Директор Департамента государственной политики в&nbsp;области автомобильного и&nbsp;городского пассажирского транспорта Министерства транспорта Российской Федерации
@@ -921,10 +958,10 @@ img.emoji {
 										Платежные системы, способы расчетов и сбора платы за билеты. Контроль и учет поступлений через муниципальные расчетные центры
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -957,10 +994,10 @@ img.emoji {
 										Выбор платежного механизма и возможности банковского финансирования концессионных проектов в сфере городского пассажирского транспорта
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -971,10 +1008,10 @@ img.emoji {
 										Финансирование концессионных проектов через выпуск облигаций
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Бакирей Алексей Сергеевич,</strong> <br>Директор Департамента государственной политики в&nbsp;области автомобильного и&nbsp;городского пассажирского транспорта Министерства транспорта Российской Федерации
@@ -985,10 +1022,10 @@ img.emoji {
 										Налоговые аспекты реализации концессионных проектов в сфере городского пассажирского транспорта
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -999,10 +1036,10 @@ img.emoji {
 										Подготовка финансовой модели для концессионного проекта в сфере пассажирского транспорта
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Бакирей Алексей Сергеевич,</strong> <br>Директор Департамента государственной политики в&nbsp;области автомобильного и&nbsp;городского пассажирского транспорта Министерства транспорта Российской Федерации
@@ -1035,10 +1072,10 @@ img.emoji {
 										Особенности выбора подвижного состава. Сравнительные характеристики. Конкурентные преимущества. Обоснование выбора.
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -1049,10 +1086,10 @@ img.emoji {
 										Предприятия городского электрического транспорта на примере СПб ГУП «Горэлектротранс». Общие сведения.
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Бакирей Алексей Сергеевич,</strong> <br>Директор Департамента государственной политики в&nbsp;области автомобильного и&nbsp;городского пассажирского транспорта Министерства транспорта Российской Федерации
@@ -1063,10 +1100,10 @@ img.emoji {
 										Эксплуатация подвижного состава
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -1077,10 +1114,10 @@ img.emoji {
 										Эксплуатация энергохозяйства
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Бакирей Алексей Сергеевич,</strong> <br>Директор Департамента государственной политики в&nbsp;области автомобильного и&nbsp;городского пассажирского транспорта Министерства транспорта Российской Федерации
@@ -1091,10 +1128,10 @@ img.emoji {
 										Эксплуатация путевого хозяйства
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -1127,10 +1164,10 @@ img.emoji {
 										Инициирование концессионного проекта в сфере общественного транспорта и принятие решения о начале реализации
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -1141,10 +1178,10 @@ img.emoji {
 										Риск-менеджмент в проектах по созданию, реконструкции и модернизации систем городского общественного транспорта
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Бакирей Алексей Сергеевич,</strong> <br>Директор Департамента государственной политики в&nbsp;области автомобильного и&nbsp;городского пассажирского транспорта Министерства транспорта Российской Федерации
@@ -1155,10 +1192,10 @@ img.emoji {
 										Управление информационно-коммуникационными рисками и подготовка обоснования целесообразности реализации концессионного проекта в сфере общественного транспорта
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -1169,10 +1206,10 @@ img.emoji {
 										Контроль реализации концессионного проекта со стороны концедента. Споры с концессионером, минимизация рисков публичной стороны
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Бакирей Алексей Сергеевич,</strong> <br>Директор Департамента государственной политики в&nbsp;области автомобильного и&nbsp;городского пассажирского транспорта Министерства транспорта Российской Федерации
@@ -1183,10 +1220,10 @@ img.emoji {
 										Маркетинг операционной деятельности: увеличение пассажиропотока предприятий общественного транспорта
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -1197,10 +1234,10 @@ img.emoji {
 										Формирование проектной команды для подготовки и реализации концессионного проекта
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Бакирей Алексей Сергеевич,</strong> <br>Директор Департамента государственной политики в&nbsp;области автомобильного и&nbsp;городского пассажирского транспорта Министерства транспорта Российской Федерации
@@ -1233,10 +1270,10 @@ img.emoji {
 										Особенности подготовки и реализации проекта по строительству и эксплуатации трамвайных путей в Красногвардейском районе Санкт-Петербурга
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -1247,10 +1284,10 @@ img.emoji {
 										Особенности подготовки и реализации проекта по созданию и эксплуатации трамвайной сети по маршруту метро «Купчино» — пос. Шушары — Славянка
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Бакирей Алексей Сергеевич,</strong> <br>Директор Департамента государственной политики в&nbsp;области автомобильного и&nbsp;городского пассажирского транспорта Министерства транспорта Российской Федерации
@@ -1261,10 +1298,10 @@ img.emoji {
 										Особенности подготовки проекта по созданию Единой федеральной системы мониторинга и контроля пассажирских перевозок с использованием механизма ГЧП
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -1275,10 +1312,10 @@ img.emoji {
 										Особенности подготовки и реализации проекта по строительству международной канатной дороги через Амур между Благовещенском и Хэйхэ
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Бакирей Алексей Сергеевич,</strong> <br>Директор Департамента государственной политики в&nbsp;области автомобильного и&nbsp;городского пассажирского транспорта Министерства транспорта Российской Федерации
@@ -1289,10 +1326,10 @@ img.emoji {
 										Применение механизма ГЧП для развития скоростного внеуличного транспорта на примере Московской области
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Госдума, Минтранс, Минпромторг, Минэкономразвития</strong>
@@ -1303,10 +1340,10 @@ img.emoji {
 										«Инфраструктурный тест-драйв» инвестиционных проектов в сфере общественного транспорта
 									</div>
 									<div class="l__prog_table_col2 lh-0">
-										
+										<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
 									</div>
 									<div class="l__prog_table_col3 lh-0">
-										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+										<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 									</div>
 									<!-- <div class="l__prog_table_col4">
 										<strong>Бакирей Алексей Сергеевич,</strong> <br>Директор Департамента государственной политики в&nbsp;области автомобильного и&nbsp;городского пассажирского транспорта Министерства транспорта Российской Федерации
@@ -1356,6 +1393,9 @@ img.emoji {
 							background-color: #fff;
 							overflow-x: hidden;
 						}
+						.mechanics .slick-disabled {
+							background-color: #d8dde7;
+						}
 						.mechanics h2 {
 							display: -webkit-box;
 							display: -webkit-flex;
@@ -1382,6 +1422,7 @@ img.emoji {
 							padding-top: 105px;
 							width: 25%;
 							position: relative;
+							outline: none;
 						}
 						.mechanics_item:before {
 							display: block;
@@ -1494,56 +1535,64 @@ img.emoji {
 							<div class="l__price_table_row">
 								<div class="l__price_table_col1">Доступ к лекциям базового курса (23 академических часа)</div>
 								<div class="l__price_table_col2 lh-0">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 								</div>
-								<div class="l__price_table_col3 lh-0"></div>
+								<div class="l__price_table_col3 lh-0">
+									<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
+								</div>
 							</div>
 							<div class="l__price_table_row l__price_table_row_gray">
 								<div class="l__price_table_col1">Доступ к лекциям профессионального курса (60 академических часов)</div>
-								<div class="l__price_table_col2"></div>
+								<div class="l__price_table_col2">
+									<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
+								</div>
 								<div class="l__price_table_col3 lh-0">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 								</div>
 							</div>
 							<div class="l__price_table_row">
 								<div class="l__price_table_col1">Получение рабочей тетради с основными материалами курса и дорожной картой реализации проектов ГЧП в сфере общественного транспорта</div>
 								<div class="l__price_table_col2 lh-0">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 								</div>
 								<div class="l__price_table_col3 lh-0">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 								</div>
 							</div>
 							<div class="l__price_table_row l__price_table_row_gray">
 								<div class="l__price_table_col1">Доступ к практическому модулю с обзором примеров реализации проектов ГЧП в сфере общественного транспорта</div>
-								<div class="l__price_table_col2"></div>
+								<div class="l__price_table_col2">
+									<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
+								</div>
 								<div class="l__price_table_col3 lh-0">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 								</div>
 							</div>
 							<div class="l__price_table_row">
 								<div class="l__price_table_col1">Презентация проектных инициатив слушателей программы в рамках «Инфраструктурного тест-драйва» и получение рекомендаций по повышению их инвестиционной привлекательности</div>
-								<div class="l__price_table_col2 lh-0"></div>
+								<div class="l__price_table_col2 lh-0">
+									<svg xmlns="http://www.w3.org/2000/svg" width="19.471" height="19.47" viewBox="0 0 19.471 19.47"><g id="Компонент_1_1" data-name="Компонент 1 – 1" transform="translate(0.5 0.5)"><path id="Контур_6497" data-name="Контур 6497" d="M11.27,9.251l6.906,6.906a1.012,1.012,0,0,1,0,1.429l-.605.605a1.013,1.013,0,0,1-1.429,0L9.236,11.285,2.329,18.191a1.012,1.012,0,0,1-1.428,0L.3,17.586a1.011,1.011,0,0,1,0-1.429L7.2,9.251.3,2.345A1.013,1.013,0,0,1,.3.916L.9.311a1.012,1.012,0,0,1,1.428,0L9.236,7.217,16.142.311a1,1,0,0,1,.714-.295h0a1,1,0,0,1,.714.295l.605.605a1.013,1.013,0,0,1,0,1.429Z" transform="translate(0 -0.016)" fill="#707070" stroke="#707070" stroke-width="1"/></g></svg>
+								</div>
 								<div class="l__price_table_col3 lh-0">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 								</div>
 							</div>
 							<div class="l__price_table_row l__price_table_row_gray">
 								<div class="l__price_table_col1">Включение слушателей программы в кадровый резерв специалистов для реализации проектов ГЧП в сфере общественного транспорта</div>
 								<div class="l__price_table_col2">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 								</div>
 								<div class="l__price_table_col3 lh-0">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 								</div>
 							</div>
 							<div class="l__price_table_row">
 								<div class="l__price_table_col1">Получение удостоверения о повышении квалификации установленного РАНХиГС образца</div>
 								<div class="l__price_table_col2 lh-0">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 								</div>
 								<div class="l__price_table_col3 lh-0">
-									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><defs><style>.at1{fill:#b23634;}</style></defs><g transform="translate(0 -10.788)"><path class="at1" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0)"/></g></svg>
+									<svg xmlns="http://www.w3.org/2000/svg" width="24" height="15.441" viewBox="0 0 24 15.441"><path id="Контур_6344" data-name="Контур 6344" d="M23.393,11.56a2.348,2.348,0,0,0-3.316-.165L9.712,20.78,3.963,15.322a2.347,2.347,0,1,0-3.232,3.4l7.223,6.856a2.338,2.338,0,0,0,2.57.441A2.324,2.324,0,0,0,11.5,25.5l11.73-10.62A2.347,2.347,0,0,0,23.393,11.56Z" transform="translate(0 -10.788)" fill="#34b238"/></svg>
 								</div>
 							</div>
 
@@ -1585,6 +1634,10 @@ img.emoji {
 						.transp__section_description {
 							color: #fff!important;
 						}
+						.transp__section_description {
+							margin-top: 10px!important;
+							margin-bottom: 7px!important;
+						}
 						.l__docs-main li {
 							width: auto!important;
 							border-left: none!important;
@@ -1593,10 +1646,14 @@ img.emoji {
 							margin-right: 80px!important;
 						}
 						.l2__docs_right {
-							text-align: center;
+							text-align: center!important;
 						}
 						.l2__docs_right_img_wrap {
 							border: 4px solid #fff;
+							margin-top: 13px;
+							-webkit-box-shadow: 0px 3px 15px 0px rgba(255, 255, 71, 0.2);
+							-moz-box-shadow: 0px 3px 15px 0px rgba(255, 255, 71, 0.2);
+							box-shadow: 0px 3px 15px 0px rgba(255, 255, 71, 0.2);
 						}
 					</style>
 					<section class="center rs__services sip__services transp__services l__docs l__program section" id="admission">
@@ -1650,6 +1707,9 @@ img.emoji {
 
 				<!-- results -->
 				<style>
+					.results {
+						padding-bottom: 20px!important;
+					}
 					.results-card-list {
 						display: flex;
 						flex-direction: row;
@@ -1683,9 +1743,9 @@ img.emoji {
 						width: 340px;
 						height: 170px;
 						border-radius: 0 0 20px 20px;
-						-webkit-box-shadow: 0px -1px 13px 1px rgba(34, 60, 80, 0.2);
-						-moz-box-shadow: 0px -1px 13px 1px rgba(34, 60, 80, 0.2);
-						box-shadow: 0px -1px 13px 1px rgba(34, 60, 80, 0.2);
+						-webkit-box-shadow: 0px -3px 6px 1px rgba(34, 60, 80, 0.2);
+						-moz-box-shadow: 0px -3px 6px 1px rgba(34, 60, 80, 0.2);
+						box-shadow: 0px -3px 6px 1px rgba(34, 60, 80, 0.2);
 					}
 					.results-card-bottom-red {
 						background-color: #b23634;
@@ -1781,7 +1841,7 @@ img.emoji {
 						}
 					}
 				</style>
-				<section class="center rs__services sip__services transp__services l__price section" id="price">
+				<section class="results center rs__services sip__services transp__services l__price section" id="price">
 						<h2 class="rs__section_heading sip__section_heading">
 							<span>Итоги программы 2020</span>
 						</h2>
@@ -2020,7 +2080,7 @@ img.emoji {
 										Станислав Цибро
 									</p>
 									<p class="feedback-post">
-										Первый заместитель генерального директора Научно-исследовательского и проектного института территориального развития и транспортной инфраструктуры
+										Заместитель директора НИПИ ТРТИ
 									</p>
 									<p class="feedback-text feddback-rewievs">
 										Хочу поблагодарить организаторов и лекторов учебной программы «Реализация проектов ГЧП в сфере общественного транспорта». Достаточно интенсивный курс, много полезной информации от лекторов. Формат учёбы в виде подготовки собственного тренировочного, но вместе с тем, реального проекта хорошо мотивирует. Достаточно большой объем подаваемой информации позволяет выбрать наиболее ценные для себя крупинки знаний, именно те, которых где-то не хватало.
@@ -2050,7 +2110,7 @@ img.emoji {
 										Павел Мельник
 									</p>
 									<p class="feedback-post">
-										Главный специалист по стратегическому маркетингу АО «Трансмашхолдинг»
+										Главный специалист по маркетингу АО «Трансмашхолдинг»
 									</p>
 									<p class="feedback-text feddback-rewievs">
 										Мой отзыв будет исключительно положительным! В первую очередь, я бы сказал, что курс превзошёл мои ожидания! Я надеялся на «легкую прогулку», но глубина погружения и требуемая вовлечённость быстро развеяли мои предположения! Все очень подробно, доходчиво, широко и профессионально представлено! Лекции доступны к просмотру в любое удобное время, что позволяет спланировать свой рабочий день максимально эффективно. Во-вторых, конечно, было приятно оказаться среди первопроходцев данного обучения! Сфера новая и перспективная. Уверен это обязательно окажется полезным в дальнейшем! Однозначно, рекомендую!
@@ -2077,7 +2137,7 @@ img.emoji {
 										Елена Яремчук
 									</p>
 									<p class="feedback-post">
-										Начальник отдела по развитию и маркетингу АО «Усть-Катавский вагоностроительный завод»
+										Начальник отдела по развитию и маркетингу АО УКВЗ
 									</p>
 									<p class="feedback-text feddback-rewievs">
 										Обучение по дополнительной профессиональной программе повышения квалификации «Реализация проектов ГЧП в сфере общественного транспорта» прошло в динамичном, насыщенном и интерактивном ключе! Участники обучения реализовали возможность не только получить новые знания по перспективному направлению развития, но и применить полученные знания при выполнении итогового задания, отработать свои навыки командной работы и, что немаловажно, пополнить свою копилку отраслевых и профессиональных контактов. Благодарю организаторов, спикеров и слушателей за актуальные знания и совместную работу над проектной инициативой!
@@ -2131,7 +2191,7 @@ img.emoji {
 										Виктор Шекшуев
 									</p>
 									<p class="feedback-post">
-										Директор департамента по производству гражданской продукции АО «Усть-Катавский вагоностроительный завод»
+										Директор департамента АО УКВЗ
 									</p>
 									<p class="feedback-text feddback-rewievs">
 										Организаторам респект! В таких условиях организовать обучение и работу над проектами весьма непросто. Многое узнали о состоянии общественного транспорта в регионах. Работы очень много, не меньше, чем в космических программах. Всем здоровья и успехов в реализации задуманных идей!
@@ -2158,7 +2218,7 @@ img.emoji {
 										Азамат Хатмуллин
 									</p>
 									<p class="feedback-post">
-										Начальник отдела транспортного планирования ПИИ «Башкирдортранспроект»
+										Начальник отдела ПИИ «Башкирдортранспроект»
 									</p>
 									<p class="feedback-text feddback-rewievs">
 										Шикарный проект. Очень структурированные знания и их подача. Спасибо участникам и лекторам и организаторам. Главное теперь реализовать полученные знания на практике! Всем удачи в реализации! Однозначно, рекомендую!
@@ -2187,7 +2247,7 @@ img.emoji {
 					<section class="rs__contacts sip__contacts center d-flex section" id="contacts">
 						<div class="rs__contacts_block sip__contacts_block d-flex">
 							<h2 class="rs__section_heading sip__section_heading">
-								КОНтакты
+								Контакты
 							</h2>
 							<div class="sip__contacts_main">
 								<div class="l_contacts_item">
@@ -2258,6 +2318,26 @@ img.emoji {
 
 
 	</div>
+		<style>
+			.footer-wrapper {
+				padding-top: 20px;
+				padding-bottom: 20px;
+				height: auto!important;
+			}
+			.footer-social img {
+				height: 41px;
+			}
+			.footer-social img {
+				margin-right: 10px;
+				margin-left: 10px;
+			} 
+			.footer-social li,
+			.footer-social a {
+				background-color: transparent!important;
+				width: auto!important;
+				height: auto!important;
+			}
+		</style>
 		<div class="footer-wrapper">
 			<footer>
 				<div class="inner-container">
@@ -2269,10 +2349,26 @@ img.emoji {
 							<!-- <a href="tel:+74955326215" class="footer-phone">+7 (495) 532-62-15</a> -->
 							<a href="mailto:info@hyperion-sg.ru" class="footer-email">info@hyperion-sg.ru</a>
 							<ul class="footer-social">
-								<li><a href="https://www.facebook.com/hyperionsg/" target="_blank"><i class="icon-facebook-logo"></i></a></li>
-								<li><a href="https://www.instagram.com/hyperion_strategy/" target="_blank"><i class="icon-instagram-symbol"></i></a></li>
-								<li><a href="https://twitter.com/InfraClub_Rus" target="_blank"><i class="icon-twitter-logo-silhouette"></i></a></li>
-								<li><a href="https://t.me/InfraDesk" target="_blank"><i class="icon-telegram"></i></a></li>
+								<li>
+									<a href="https://www.facebook.com/hyperionsg/" target="_blank">
+										<img src="img/svg/facebook-w.svg" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="https://www.instagram.com/hyperion_strategy/" target="_blank">
+										<img src="img/svg/instagram-w.svg" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="https://twitter.com/InfraClub_Rus" target="_blank">
+										<img src="img/svg/twitter-w.svg" alt="">
+									</a>
+								</li>
+								<li>
+									<a href="https://t.me/InfraDesk" target="_blank">
+										<img src="img/svg/telegram-w.svg" alt="">
+									</a>
+								</li>
 							</ul>
 						</div>
 					</div>
@@ -2386,19 +2482,16 @@ var screenReaderText = {"expand":"<span class=\"screen-reader-text\">\u0440\u043
 		  dots: false,
 		  responsive: [
 			{
-			  breakpoint: 767,
-			  settings: {
-				slidesToShow: 2,
-				slidesToScroll: 2
-			  }
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 2,
+					slidesToScroll: 2,
+				}
 			},
-			 {
-			   breakpoint: 1219,
-			   settings: 'unslick',
-			 },
-			 // You can unslick at a given breakpoint now by adding:
-			 // settings: "unslick"
-			 // instead of a settings object
+			{
+				breakpoint: 1220,
+				settings: 'unslick',
+			},
 		   ]
 		});
 	}
@@ -2421,10 +2514,27 @@ var screenReaderText = {"expand":"<span class=\"screen-reader-text\">\u0440\u043
 
 
 
-
+		activeProgModule = ''
 		$( ".l__prog_module_wrap" ).click(function() {
-		  $( this ).find( ".l__prog_main" ).slideToggle();
-		  $( this ).toggleClass('active');
+			if (activeProgModule === '') {
+				$( this ).find( ".l__prog_main" ).slideToggle();
+				$( this ).toggleClass('active');
+				activeProgModule = $( this )
+				console.log(activeProgModule[0])
+				console.log(1)
+			} else if (activeProgModule[0] === $( this )[0]) {
+				$( this ).find( ".l__prog_main" ).slideToggle();
+				$( this ).toggleClass('active');
+				activeProgModule = ''
+				console.log(2)
+			} else {
+				$( this ).find( ".l__prog_main" ).slideToggle();
+				$( this ).toggleClass('active');
+				activeProgModule.find( ".l__prog_main" ).slideToggle();
+				activeProgModule.toggleClass('active');
+				activeProgModule = $( this )
+				console.log(3)
+			}
 		});
 		/*$( "#l__prog_module2_toggler" ).click(function() {
 		  $( "#l__prog_main2" ).slideToggle();
