@@ -120,9 +120,15 @@
 			margin-right: 15px;
 			height: 24px;
 		}
-		.header-menu {
-			padding-left: 31px!important;
-			padding-bottom: 57px !important;
+		@media screen and (max-width: 1180px) {
+			.header-menu {
+				padding-left: 31px!important;
+				padding-bottom: 57px !important;
+			}
+			.header-menu ul li a {
+				height: auto!important;
+				margin-bottom: 17px;
+			}
 		}
 	</style>
 	<div class="mobile-bg"></div>
@@ -201,10 +207,51 @@
 <!-- content -->
 
 
-
+			<style>
+				.content-date {
+						display: none;
+						justify-content: space-between;
+						align-items: center;
+						background-color: #fff;
+						width: 95%;
+						padding: 10px;
+						border-radius: 4px;
+						color: #000;
+					}
+					.content-date #countdown2,
+					.content-date #countdown3 {
+						font-family: "Roboto Condensed", sans-serif;
+						font-size: 25px;
+					}
+					.l__main_pre {
+						position: relative;
+					}
+				@media screen and (max-width: 1180px) {
+					.content-date-middle {
+						display: flex!important;
+					}
+				}
+				@media screen and (max-width: 768px) {
+					.content-date-middle {
+						display: none!important;
+					}
+					.content-date-small {
+						display: flex!important;
+						position: absolute;
+						bottom: 20px;
+						left: 50%;
+						transform: translateX(-50%);
+					}
+				}
+			</style>
 			<div class="rs__content">
 				<!-- main -->
-					<div class="l__main_pre"></div>
+					<div class="l__main_pre">
+						<div class="content-date content-date-small">
+							<div><span class="mob_timer_title">До старта программы:</span></div>
+							<div><span id="countdown2"><span class="days"></span> <span class="hours"></span>:<span class="minutes"></span>:<span class="seconds"></span></span></div>
+						</div>
+					</div>
 					<section class="rs__main sip__main ikr__main transp__main d-flex center">
 						<div class="rs__main_item">
 							<div class="rs__main_item-content sip__main_item-content ikr__main_item-content">
@@ -223,6 +270,10 @@
 									Пройти обучение
 								</a> -->
 							</div>
+						</div>
+						<div class="content-date content-date-middle">
+							<div><span class="mob_timer_title">До старта программы:</span></div>
+							<div><span id="countdown3"><span class="days"></span> <span class="hours"></span>:<span class="minutes"></span>:<span class="seconds"></span></span></div>
 						</div>
 					</section>
 				<!-- main -->
@@ -417,6 +468,42 @@
 						</div>
 					</section>
 				<!-- advantages -->
+
+				<!-- trains -->
+					<style>
+						.foto-list {
+							display: flex;
+						}
+						.foto-item {
+							flex-basis: 10%;
+						}
+						.foto-item img {
+							display: block;
+							width: 100%;
+							box-sizing: border-box;
+						}
+						.foto-list .foto-item:not(:last-child) {
+							border-right: 2px solid white;
+						}
+						@media screen and (max-width: 768px) {
+							.foto-list {
+								display: none;
+							}
+						}
+					</style>
+					<div class="foto-list">
+						<div class="foto-item"><img src="img/trains-foto/1.jpg" alt=""></div>
+						<div class="foto-item"><img src="img/trains-foto/2.jpg" alt=""></div>
+						<div class="foto-item"><img src="img/trains-foto/3.jpg" alt=""></div>
+						<div class="foto-item"><img src="img/trains-foto/4.jpg" alt=""></div>
+						<div class="foto-item"><img src="img/trains-foto/5.jpg" alt=""></div>
+						<div class="foto-item"><img src="img/trains-foto/6.jpg" alt=""></div>
+						<div class="foto-item"><img src="img/trains-foto/7.jpg" alt=""></div>
+						<div class="foto-item"><img src="img/trains-foto/8.jpg" alt=""></div>
+						<div class="foto-item"><img src="img/trains-foto/9.jpg" alt=""></div>
+						<div class="foto-item"><img src="img/trains-foto/10.jpg" alt=""></div>
+					</div>
+				<!-- trains -->
 
 				<!-- tasks -->
 					<section class="rs__tasks sip__tasks transp__tasks center gray_bg">
@@ -2695,7 +2782,7 @@ $( ".feddback-rewievs" ).each(function() {
 var deadline = "October 04 2021 10:00:00 GMT+0300";
 initializeClock("countdown", deadline);
 initializeClock("countdown2", deadline);
-
+initializeClock("countdown3", deadline);
 
 
 </script>
