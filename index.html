@@ -801,10 +801,15 @@
 						.title-button .office-button-mob-b {
 							margin-top: 0px;
 						}
+						@media screen and (max-width: 768px) {
+							.title-width {
+								width: 100%!important;
+							}
+						}
 					</style>
 					<section class="center rs__services sip__services transp__services l__docs l__program section" id="program">
 						<div class="title-button">
-							<h2 class="rs__section_heading sip__section_heading">
+							<h2 class="rs__section_heading sip__section_heading title-width">
 								<span>СОДЕРЖАНИЕ ПРОГРАММЫ</span>
 							</h2>
 							<a class="office-button-mob hidden-xs" href="https://infraacademy.getcourse.ru/transport" target="_blank">
@@ -1666,7 +1671,7 @@
 				<!-- price -->
 					<section class="center rs__services sip__services transp__services l__docs l__price section" id="price">
 						<div class="title-button">
-							<h2 class="rs__section_heading sip__section_heading">
+							<h2 class="rs__section_heading sip__section_heading title-width">
 								<span>СОДЕРЖАНИЕ ПРОГРАММЫ</span>
 							</h2>
 							<a class="office-button-mob-b hidden-xs" href="https://infraacademy.getcourse.ru/transport" target="_blank">
@@ -2497,6 +2502,15 @@
 				background-color: transparent!important;
 				width: auto!important;
 				height: auto!important;
+			}
+			.footer-links {
+				width: 400px;
+			}
+			@media screen and (max-width: 991px) {
+				.footer-wrapper {
+					padding-top: 0;
+					padding-bottom: 0;
+				}
 			}
 		</style>
 		<div class="footer-wrapper">
