@@ -142,6 +142,9 @@
 			margin-right: 15px;
 			height: 24px;
 		}
+		.btn-show-xs {
+			display: none;
+		}
 		@media screen and (max-width: 1180px) {
 			.header-menu {
 				padding-left: 31px!important;
@@ -150,6 +153,13 @@
 			.header-menu ul li a {
 				height: auto!important;
 				margin-bottom: 17px;
+			}
+		}
+		@media screen and (max-width: 768px) {
+			.btn-show-xs {
+				display: flex;
+    			margin: auto;
+    			margin-top: 20px;
 			}
 		}
 	</style>
@@ -357,15 +367,15 @@
 								<a href="https://t.me/tzdjournal" target="_blank"><img src="img/tzfd_logo_rus.svg" class="tzdjournal"></a>
 								<a href="https://t.me/urban_blog" target="_blank">
 									<img src="img/urban_blog.jpg" class="urban_blog">
-									<p>Канал Алексея Радченко</p>
+									<p class="hidden-xs">Канал Алексея Радченко</p>
 								</a>
 								<a href="https://t.me/tramtrollbus" target="_blank">
 									<img src="img/ramtrollbus.jpg" class="urban_blog">
-									<p>Василий и трамвайчики</p>
+									<p class="hidden-xs">Василий и трамвайчики</p>
 								</a>
 								<a href="https://t.me/InfraDesk" target="_blank">
 									<img src="img/InfraDesk.svg" class="urban_blog">
-									<p>InfraDesk</p>
+									<p class="hidden-xs">InfraDesk</p>
 								</a>
 							</div>
 						</div>
@@ -1481,6 +1491,9 @@
 								</div>
 							</div>
 						</div>
+						<a class="office-button-mob btn-show-xs" href="https://infraacademy.getcourse.ru/transport" target="_blank">
+							Пройти обучение
+						</a>
 					</section>
 				<!-- program -->
 
@@ -1752,6 +1765,9 @@
 								<div class="l__price_table_col3">49 900 ₽</div>
 							</div>
 						</div>
+						<a class="office-button-mob-b btn-show-xs" href="https://infraacademy.getcourse.ru/transport" target="_blank">
+							Пройти обучение
+						</a>
 					</section>
 				<!-- price -->
 
@@ -2470,7 +2486,7 @@
 				height: auto!important;
 			}
 			.footer-social img {
-				height: 41px;
+				height: 31px;
 			}
 			.footer-social img {
 				margin-right: 10px;
