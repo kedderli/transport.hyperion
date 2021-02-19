@@ -724,7 +724,7 @@
 	}
 	.fancybox-slide {
 		width: 80%;
-		max-width: 1000px;
+		max-width: 1000px!important;
 		left: 50%!important;
 		-webkit-transform: translateX(-50%);
 		-moz-transform: translateX(-50%);
@@ -733,8 +733,9 @@
 		        transform: translateX(-50%);
 	}
 	@media screen and (max-width: 768px) {
-		.fancybox-slide {
-			padding: 10px;
+		.fancybox-content {
+			padding-left: 43px!important;
+			padding-right: 43px!important;
 		}
 	}
 </style>
