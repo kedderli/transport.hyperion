@@ -30,6 +30,713 @@
 		padding: 0 !important;
 	}
 </style>
+<style>
+	.office-button {
+		font-weight: 700;
+		font-size: 18px;
+		font: Bold 14px/40px Roboto Condensed;
+		letter-spacing: -0.01px;
+		color: #334059;
+		margin-right: 60px;
+	}
+	.office-button:before {
+		content: url('img/svg/persone.svg');
+		position: absolute;
+		-webkit-transform: translate(-200%, 10%);
+		   -moz-transform: translate(-200%, 10%);
+		    -ms-transform: translate(-200%, 10%);
+		     -o-transform: translate(-200%, 10%);
+		        transform: translate(-200%, 10%);
+	}
+	.reg-button-mob {
+		display: inline-block;
+		font: Bold 14px/24px Roboto Condensed;
+		color: #FFFFFF;
+		text-transform: none;
+		background: #B23634;
+		border: none;
+		-webkit-border-radius: 4px;
+		   -moz-border-radius: 4px;
+		        border-radius: 4px;
+		padding: 9px 61px;
+		margin-top: 20px;
+		cursor: pointer;
+	}
+	.office-button-mob {
+		display: inline-block;
+		font: Bold 14px/24px Roboto Condensed;
+		color: #FFFFFF;
+		text-transform: none;
+		border: 2px solid #fff;
+		-webkit-border-radius: 4px;
+		   -moz-border-radius: 4px;
+		        border-radius: 4px;
+		margin-top: 20px;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		   -moz-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		   -moz-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		width: 192.56px;
+		height: 42px;
+		cursor: pointer;
+	}
+	.office-button-mob:hover {
+		color: #fff;
+	}
+	.office-button-mob-b {
+		display: inline-block;
+		font: Bold 14px/24px Roboto Condensed;
+		color: #334059;
+		text-transform: none;
+		border: 2px solid #334059;
+		-webkit-border-radius: 4px;
+		   -moz-border-radius: 4px;
+		        border-radius: 4px;
+		margin-top: 20px;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		   -moz-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		   -moz-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		width: 192.56px;
+		height: 42px;
+		cursor: pointer;
+	}
+	.office-button-mob-b:hover {
+		color: #334059;
+	}
+	.office-button-mob img {
+		margin-right: 15px;
+		height: 24px;
+	}
+	.btn-show-xs {
+		display: none;
+	}
+	@media screen and (max-width: 1180px) {
+		.header-menu {
+			padding-left: 31px!important;
+			padding-bottom: 57px !important;
+		}
+		.header-menu ul li a {
+			height: auto!important;
+			margin-bottom: 17px;
+		}
+	}
+	@media screen and (max-width: 768px) {
+		.btn-show-xs {
+			display: -webkit-box;
+			display: -webkit-flex;
+			display: -moz-box;
+			display: -ms-flexbox;
+			display: flex;
+			margin: auto;
+			margin-top: 20px;
+		}
+	}
+
+	.content-date {
+			display: none;
+			-webkit-box-pack: justify;
+			-webkit-justify-content: space-between;
+			   -moz-box-pack: justify;
+			    -ms-flex-pack: justify;
+			        justify-content: space-between;
+			-webkit-box-align: center;
+			-webkit-align-items: center;
+			   -moz-box-align: center;
+			    -ms-flex-align: center;
+			        align-items: center;
+			background-color: #fff;
+			width: 95%;
+			padding: 10px;
+			-webkit-border-radius: 4px;
+			   -moz-border-radius: 4px;
+			        border-radius: 4px;
+			color: #000;
+		}
+		.content-date #countdown2,
+		.content-date #countdown3 {
+			font-family: "Roboto Condensed", sans-serif;
+			font-size: 25px;
+		}
+		.l__main_pre {
+			position: relative;
+		}
+	@media screen and (max-width: 1180px) {
+		.content-date-middle {
+			display: -webkit-box!important;
+			display: -webkit-flex!important;
+			display: -moz-box!important;
+			display: -ms-flexbox!important;
+			display: flex!important;
+			margin-top: 40px;
+		}
+	}
+	@media screen and (max-width: 768px) {
+		.content-date-middle {
+			display: none!important;
+		}
+		.content-date-small {
+			display: -webkit-box!important;
+			display: -webkit-flex!important;
+			display: -moz-box!important;
+			display: -ms-flexbox!important;
+			display: flex!important;
+			position: absolute;
+			bottom: 20px;
+			left: 50%;
+			-webkit-transform: translateX(-50%);
+			   -moz-transform: translateX(-50%);
+			    -ms-transform: translateX(-50%);
+			     -o-transform: translateX(-50%);
+			        transform: translateX(-50%);
+		}
+	}
+
+	@media screen and (max-width: 1220px) {
+		.l_orgs_wrap {
+			margin-top: 20px;
+		}
+		.l_orgs_wrap span,
+		.l_partners_wrap span {
+			margin-bottom: 10px !important;
+		}
+		.l_orgs_logos_wrap {
+			height: auto!important;
+		}
+		.l_orgs {
+			padding-top: 0 !important;
+		}
+	}
+
+	.rs__services .slick-disabled {
+		background-color: #d8dde7;
+	}
+	.rs__services_list li {
+		outline: none;
+	}
+
+	.rs__advantages .slick-disabled {
+		background-color: #F7F8FA;
+	}
+	.rs__advantages_counters-item {
+		outline: none;
+	}
+
+	.foto-list {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+	}
+	.foto-item {
+		-webkit-flex-basis: 10%;
+		    -ms-flex-preferred-size: 10%;
+		        flex-basis: 10%;
+	}
+	.foto-item img {
+		display: block;
+		width: 100%;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+	.foto-list .foto-item:not(:last-child) {
+		border-right: 2px solid white;
+	}
+	.l__tasks-link:hover {
+		color: #fff;
+	}
+	@media screen and (max-width: 768px) {
+		.foto-list {
+			display: none;
+		}
+	}
+
+	.title-button {
+		width: 100%;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: justify;
+		-webkit-justify-content: space-between;
+		   -moz-box-pack: justify;
+		    -ms-flex-pack: justify;
+		        justify-content: space-between;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		   -moz-box-align: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+	}
+	.title-button .office-button-mob,
+	.title-button .office-button-mob-b {
+		margin-top: 0px;
+	}
+	@media screen and (max-width: 768px) {
+		.title-width {
+			width: 100%!important;
+		}
+	}
+
+	.mechanics {
+		padding-top: 30px;
+		padding-bottom: 30px;
+		background-color: #fff;
+		overflow-x: hidden;
+	}
+	.mechanics .slick-disabled {
+		background-color: #d8dde7;
+	}
+	.mechanics h2 {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: -moz-box;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		-moz-box-align: center;
+		     align-items: center;
+	}
+	.mechanics h2 span {
+		-webkit-box-flex: 1;
+		-webkit-flex-grow: 1;
+		   -moz-box-flex: 1;
+		    -ms-flex-positive: 1;
+		        flex-grow: 1;
+	}
+	.mechanics_main {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: -moz-box;
+		display: flex;
+
+		padding: 0px 0 20px 28px;
+		counter-reset: mechanicsc;
+	}
+	.mechanics_item {
+		padding-top: 105px;
+		width: 25%;
+		position: relative;
+		outline: none;
+	}
+	.mechanics_item:before {
+		display: block;
+		content: '';
+		width: 100%;
+		height: 1px;
+		position: absolute;
+		border-top: 2px solid #707070;
+		top: 55px;
+		left: 0px;
+	}
+	.mechanics_item:last-child:before {
+		width: 100vh;
+		border-top: 2px dashed #707070;
+	}
+	.mechanics_item:after {
+		display: block;
+		content: url(img/125827.svg);
+		width: 40px;
+		height: 40px;
+		position: absolute;
+		background: #fff;
+		top: 35px;
+		left: 0px;
+	}
+	.mechanics_item h6 {
+		font: bold 18px/28px 'DIN Pro Cond';
+		color: #B23634;
+		position: relative;
+		padding-bottom: 15px;
+		margin-bottom: 10px;
+	}
+	.mechanics_item h6:after {
+		display: block;
+		content: '';
+		width: 90%;
+		height: 3px;
+		background: #B23634;
+		position: absolute;
+		bottom: 0;
+	}
+	.mechanics_item p {
+		font: normal normal normal 16px/28px 'DIN Pro Cond';
+		color: #000000;
+	}
+
+	@media screen and (max-width: 768px) {
+		.mechanics {
+			padding-bottom: 50px;
+		}
+		.mechanics h2 span {
+			line-height: 40px;
+		}
+	}
+	@media screen and (max-width: 1200px) {
+		.docs_flex {
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-webkit-flex-direction: column;
+			   -moz-box-orient: vertical;
+			   -moz-box-direction: normal;
+			    -ms-flex-direction: column;
+			        flex-direction: column;
+		}
+		.l2__docs_right {
+			text-align: left!important;
+		}
+		.l2__docs_right_img_wrap {
+			display: inline-block;
+			max-width: 100%;
+		}
+		.l2__docs_right_img_wrap img{
+			max-width: 100%;
+		}
+		.docs_flex ol li {
+			padding-right: 0!important;
+			margin-right: 0!important;
+		}
+	}
+	@media screen and (min-width: 1219px) {
+		.l__section_mechanics_heading_btn-prev, .l__section_mechanics_heading_btn-next {
+			display: none;
+		}
+
+	}
+
+	.docs_flex {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		width: 100%;
+	}
+	.l__docs-main {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		   -moz-box-orient: vertical;
+		   -moz-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		width: auto;
+	}
+	.l__docs-main li p,
+	.transp__section_description {
+		color: #fff!important;
+	}
+	.transp__section_description {
+		margin-top: 10px!important;
+		margin-bottom: 7px!important;
+	}
+	.l__docs-main li {
+		width: auto!important;
+		border-left: none!important;
+		padding-right: 80px!important;
+		padding-left: 0px!important;
+		margin-right: 80px!important;
+	}
+	.l2__docs_right {
+		text-align: center!important;
+	}
+	.l2__docs_right_img_wrap {
+		border: 4px solid #fff;
+		margin-top: 13px;
+		-webkit-box-shadow: 0px 3px 15px 0px rgba(255, 255, 71, 0.2);
+		-moz-box-shadow: 0px 3px 15px 0px rgba(255, 255, 71, 0.2);
+		box-shadow: 0px 3px 15px 0px rgba(255, 255, 71, 0.2);
+	}
+	.program_bg {
+		background: #3D4A63 url(img/back_pr_1.jpg) no-repeat!important;
+		-webkit-background-size: cover!important;
+		   -moz-background-size: cover!important;
+		     -o-background-size: cover!important;
+		        background-size: cover!important;
+	}
+
+	.results {
+		padding-bottom: 20px!important;
+	}
+	.results-card-list {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -moz-box;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: horizontal;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: row;
+		   -moz-box-orient: horizontal;
+		   -moz-box-direction: normal;
+		    -ms-flex-direction: row;
+		        flex-direction: row;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		   -moz-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		-webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		        flex-wrap: wrap;
+	}
+	.results-card-item {
+		padding-right: 15px;
+		padding-left: 15px;
+		margin-bottom: 30px;
+		-webkit-box-sizing: border-box;
+		   -moz-box-sizing: border-box;
+		        box-sizing: border-box;
+	}
+	.results-card-top {
+		position: relative;
+		margin-left: 14px;
+		width: 310px;
+		height: 158px;
+		border-left: 3px solid gray;
+		border-right: 3px solid gray;
+		border-top: 3px solid gray;
+		-webkit-border-radius: 10px 10px 0 0;
+		   -moz-border-radius: 10px 10px 0 0;
+		        border-radius: 10px 10px 0 0;
+	}
+	.results-card-top-content {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		-webkit-transform: translate(-50%, -50%);
+		   -moz-transform: translate(-50%, -50%);
+		    -ms-transform: translate(-50%, -50%);
+		     -o-transform: translate(-50%, -50%);
+		        transform: translate(-50%, -50%);
+	}
+	.results-card-bottom {
+		position: relative;
+		width: 340px;
+		height: 170px;
+		-webkit-border-radius: 0 0 20px 20px;
+		   -moz-border-radius: 0 0 20px 20px;
+		        border-radius: 0 0 20px 20px;
+		-webkit-box-shadow: 0px -3px 6px 1px rgba(34, 60, 80, 0.2);
+		-moz-box-shadow: 0px -3px 6px 1px rgba(34, 60, 80, 0.2);
+		box-shadow: 0px -3px 6px 1px rgba(34, 60, 80, 0.2);
+	}
+	.results-card-bottom-red {
+		background-color: #b23634;
+	}
+	.results-card-bottom-red:after {
+		content: ''; 
+		position: absolute;
+		left: 50%; 
+		top: -40px; 
+		-webkit-transform: translateX(-50%); 
+		   -moz-transform: translateX(-50%); 
+		    -ms-transform: translateX(-50%); 
+		     -o-transform: translateX(-50%); 
+		        transform: translateX(-50%);
+		border: 20px solid transparent; 
+		border-bottom: 20px solid #b23634;
+	}
+	.results-card-bottom-blue {
+		background-color: #334059;
+	}
+	.results-card-bottom-blue:after {
+		content: ''; 
+		position: absolute;
+		left: 50%; 
+		top: -40px; 
+		-webkit-transform: translateX(-50%); 
+		   -moz-transform: translateX(-50%); 
+		    -ms-transform: translateX(-50%); 
+		     -o-transform: translateX(-50%); 
+		        transform: translateX(-50%);
+		border: 20px solid transparent; 
+		border-bottom: 20px solid #334059;
+	}
+	.results-card-bottom-content {
+		position: absolute;
+		top: 50%;
+		-webkit-transform: translateY(-50%);
+		   -moz-transform: translateY(-50%);
+		    -ms-transform: translateY(-50%);
+		     -o-transform: translateY(-50%);
+		        transform: translateY(-50%);
+		text-align: center;
+		width: 100%;
+		color: #fff;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 400;
+		font-size: 25px;
+		line-height: 40px;
+	}
+	.results-card-number {
+		font-size: 50px;
+		padding-right: 5px;
+	}
+	@media screen and (max-width: 1220px) {
+		.results-card-item {
+			width: 33.33%;
+		}
+		.results-card-top {
+			width: -webkit-calc(100% - 20px);
+			width: -moz-calc(100% - 20px);
+			width: calc(100% - 20px);
+			margin-left: 9px;
+		}
+		.results-card-bottom {
+			width: 100%;
+		}
+		.results-card-bottom-content {
+			font-size: 16px;
+		}
+		.results-card-number {
+			font-size: 28px
+		}
+	}
+	@media screen and (max-width: 768px) {
+		.results-card-item {
+			padding-right: 5px;
+			padding-left: 5px;
+		}
+		.results-card-top,
+		.results-card-bottom {
+			height: 50px;
+		}
+		.results-card-top img {
+			height: 30px;
+			margin-bottom: 10px;
+		}
+		.results-card-bottom-content {
+			font-size: 9px;
+			line-height: 12px;
+		}
+		.results-card-number {
+			font-size: 17px
+		}
+		.results-card-bottom-red:after {
+			left: 50%; 
+			top: -14px; 
+			-webkit-transform: translateX(-50%); 
+			   -moz-transform: translateX(-50%); 
+			    -ms-transform: translateX(-50%); 
+			     -o-transform: translateX(-50%); 
+			        transform: translateX(-50%);
+			border: 7px solid transparent; 
+			border-bottom: 7px solid #b23634;
+		}
+		.results-card-bottom-blue:after {
+			left: 50%; 
+			top: -14px; 
+			-webkit-transform: translateX(-50%); 
+			   -moz-transform: translateX(-50%); 
+			    -ms-transform: translateX(-50%); 
+			     -o-transform: translateX(-50%); 
+			        transform: translateX(-50%);
+			border: 7px solid transparent; 
+			border-bottom: 7px solid #334059;
+		}
+	}
+
+	.feedback-item {
+		width: 530px;
+		padding: 15px;
+		-webkit-box-shadow: 0px 2px 10px 0px rgba(34, 60, 80, 0.2);
+		-moz-box-shadow: 0px 2px 10px 0px rgba(34, 60, 80, 0.2);
+		box-shadow: 0px 2px 10px 0px rgba(34, 60, 80, 0.2);
+		margin: 10px;
+		outline: none;
+	}
+	.feedback-name {
+		font-family: 'Roboto', sans-serif;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 21px;
+		color: #B23634;
+		margin-bottom: 5px;
+	}
+	.feedback-post {
+		font-family: 'Roboto', sans-serif;
+		font-size: 12px;
+		line-height: 16px;
+		color: #334059;
+		margin-bottom: 15px;
+	}
+	.feedback-text {
+		font-family: 'Roboto', sans-serif;
+		font-size: 12px;
+		line-height: 18px;
+		color: #909EBB;
+		overflow: hidden;
+		margin-bottom: 10px;
+	}
+	.feedback-readmore {
+		position: relative;		
+		text-align: right;	
+	}
+	.feedback-readmore a{
+		padding-right: 35px;
+		cursor: pointer;
+		outline: none;
+		font-family: 'Roboto', sans-serif;
+		font-size: 14px;
+		line-height: 19px;
+		color: #909EBB;
+	}
+	.feedback-readmore a:after {
+		position: absolute;
+		content: url('img/readmore.png');
+		top: 2px;
+		right: 10px;
+	}
+	.fancybox-slide {
+		max-width: 80%;
+		left: 50%!important;
+		-webkit-transform: translateX(-50%);
+		-moz-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		-o-transform: translateX(-50%);
+		        transform: translateX(-50%);
+	}
+	@media screen and (max-width: 768px) {
+		.fancybox-slide {
+			padding: 10px;
+		}
+	}
+</style>
 <link rel='stylesheet' id='contact-form-7-css'  href='https://hyperion-sg.ru/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.7' type='text/css' media='all' />
 <link rel='stylesheet' id='twentyfifteen-fonts-css'  href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext%2Ccyrillic%2Ccyrillic-ext' type='text/css' media='all' />
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -74,95 +781,6 @@
 </head>
 
 <body class="l_wrap">
-	<style>
-		.office-button {
-			font-weight: 700;
-			font-size: 18px;
-			font: Bold 14px/40px Roboto Condensed;
-			letter-spacing: -0.01px;
-			color: #334059;
-			margin-right: 60px;
-		}
-		.office-button:before {
-			content: url('img/svg/persone.svg');
-			position: absolute;
-			transform: translate(-200%, 10%);
-		}
-		.reg-button-mob {
-			display: inline-block;
-			font: Bold 14px/24px Roboto Condensed;
-			color: #FFFFFF;
-			text-transform: none;
-			background: #B23634;
-			border: none;
-			border-radius: 4px;
-			padding: 9px 61px;
-			margin-top: 20px;
-			cursor: pointer;
-		}
-		.office-button-mob {
-			display: inline-block;
-			font: Bold 14px/24px Roboto Condensed;
-			color: #FFFFFF;
-			text-transform: none;
-			border: 2px solid #fff;
-			border-radius: 4px;
-			margin-top: 20px;
-			display: flex;
-			align-items: center;
-			box-sizing: border-box;
-			justify-content: center;
-			width: 192.56px;
-			height: 42px;
-			cursor: pointer;
-		}
-		.office-button-mob:hover {
-			color: #fff;
-		}
-		.office-button-mob-b {
-			display: inline-block;
-			font: Bold 14px/24px Roboto Condensed;
-			color: #334059;
-			text-transform: none;
-			border: 2px solid #334059;
-			border-radius: 4px;
-			margin-top: 20px;
-			display: flex;
-			align-items: center;
-			box-sizing: border-box;
-			justify-content: center;
-			width: 192.56px;
-			height: 42px;
-			cursor: pointer;
-		}
-		.office-button-mob-b:hover {
-			color: #334059;
-		}
-		.office-button-mob img {
-			margin-right: 15px;
-			height: 24px;
-		}
-		.btn-show-xs {
-			display: none;
-		}
-		@media screen and (max-width: 1180px) {
-			.header-menu {
-				padding-left: 31px!important;
-				padding-bottom: 57px !important;
-			}
-			.header-menu ul li a {
-				height: auto!important;
-				margin-bottom: 17px;
-			}
-		}
-		@media screen and (max-width: 768px) {
-			.btn-show-xs {
-				display: flex;
-    			margin: auto;
-    			margin-top: 20px;
-			}
-		}
-	</style>
 	<div class="mobile-bg"></div>
 		<div class="main-wrapper">
 		<div class="header-wrapper  header-white">
@@ -233,50 +851,7 @@
 			</header>
 		</div>
 		<div class="content-wrapper">
-
-
-
-<!-- content -->
-
-
-			<style>
-				.content-date {
-						display: none;
-						justify-content: space-between;
-						align-items: center;
-						background-color: #fff;
-						width: 95%;
-						padding: 10px;
-						border-radius: 4px;
-						color: #000;
-					}
-					.content-date #countdown2,
-					.content-date #countdown3 {
-						font-family: "Roboto Condensed", sans-serif;
-						font-size: 25px;
-					}
-					.l__main_pre {
-						position: relative;
-					}
-				@media screen and (max-width: 1180px) {
-					.content-date-middle {
-						display: flex!important;
-						margin-top: 40px;
-					}
-				}
-				@media screen and (max-width: 768px) {
-					.content-date-middle {
-						display: none!important;
-					}
-					.content-date-small {
-						display: flex!important;
-						position: absolute;
-						bottom: 20px;
-						left: 50%;
-						transform: translateX(-50%);
-					}
-				}
-			</style>
+		<!-- content -->
 			<div class="rs__content">
 				<!-- main -->
 					<div class="l__main_pre">
@@ -312,23 +887,6 @@
 				<!-- main -->
 
 				<!-- organizers -->
-					<style>
-						@media screen and (max-width: 1220px) {
-							.l_orgs_wrap {
-								margin-top: 20px;
-							}
-							.l_orgs_wrap span,
-							.l_partners_wrap span {
-								margin-bottom: 10px !important;
-							}
-							.l_orgs_logos_wrap {
-								height: auto!important;
-							}
-							.l_orgs {
-								padding-top: 0 !important;
-							}
-						}
-					</style>
 					<section class="center l_orgs">
 						<div class="l_orgs_wrap">
 							<span>Организаторы:</span>
@@ -383,14 +941,6 @@
 				<!-- organizers -->
 
 				<!-- services -->
-					<style>
-						.rs__services .slick-disabled {
-							background-color: #d8dde7;
-						}
-						.rs__services_list li {
-							outline: none;
-						}
-					</style>
 					<section class="center rs__services sip__services transp__services section" id="about">
 						<h2 class="rs__section_heading sip__section_heading">
 							<span>ВИДЫ ОБЩЕСТВЕННОГО ТРАНСПОРТА В ПРОГРАММЕ</span>
@@ -431,14 +981,6 @@
 				<!-- services -->
 
 				<!-- advantages -->
-					<style>
-						.rs__advantages .slick-disabled {
-							background-color: #F7F8FA;
-						}
-						.rs__advantages_counters-item {
-							outline: none;
-						}
-					</style>
 					<section class="center rs__advantages sip__advantages ikr__advantages transp__advantages gray_bg">
 						<h2 class="rs__section_heading sip__section_heading">
 							<span>ПРЕИМУЩЕСТВА ОБРАЗОВАТЕЛЬНОГО КУРСА</span>
@@ -503,30 +1045,6 @@
 				<!-- advantages -->
 
 				<!-- trains -->
-					<style>
-						.foto-list {
-							display: flex;
-						}
-						.foto-item {
-							flex-basis: 10%;
-						}
-						.foto-item img {
-							display: block;
-							width: 100%;
-							box-sizing: border-box;
-						}
-						.foto-list .foto-item:not(:last-child) {
-							border-right: 2px solid white;
-						}
-						.l__tasks-link:hover {
-							color: #fff;
-						}
-						@media screen and (max-width: 768px) {
-							.foto-list {
-								display: none;
-							}
-						}
-					</style>
 					<div class="foto-list">
 						<div class="foto-item"><img src="img/trains-foto/1.jpg" alt=""></div>
 						<div class="foto-item"><img src="img/trains-foto/2.jpg" alt=""></div>
@@ -790,23 +1308,6 @@
 				<!-- expirience -->
 
 				<!-- program -->
-					<style>
-						.title-button {
-							width: 100%;
-							display: flex;
-							justify-content: space-between;
-							align-items: center;
-						}
-						.title-button .office-button-mob,
-						.title-button .office-button-mob-b {
-							margin-top: 0px;
-						}
-						@media screen and (max-width: 768px) {
-							.title-width {
-								width: 100%!important;
-							}
-						}
-					</style>
 					<section class="center rs__services sip__services transp__services l__docs l__program section" id="program">
 						<div class="title-button">
 							<h2 class="rs__section_heading sip__section_heading title-width">
@@ -1534,138 +2035,7 @@
 						</div>
 
 					</section>
-					<style>
-						.mechanics {
-							padding-top: 30px;
-							padding-bottom: 30px;
-							background-color: #fff;
-							overflow-x: hidden;
-						}
-						.mechanics .slick-disabled {
-							background-color: #d8dde7;
-						}
-						.mechanics h2 {
-							display: -webkit-box;
-							display: -webkit-flex;
-							display: -ms-flexbox;
-							display: flex;
-							-webkit-box-align: center;
-							-webkit-align-items: center;
-							-ms-flex-align: center;
-							align-items: center;
-						}
-						.mechanics h2 span {
-							flex-grow: 1;
-						}
-						.mechanics_main {
-							display: -webkit-box;
-							display: -webkit-flex;
-							display: -ms-flexbox;
-							display: flex;
 
-							padding: 0px 0 20px 28px;
-							counter-reset: mechanicsc;
-						}
-						.mechanics_item {
-							padding-top: 105px;
-							width: 25%;
-							position: relative;
-							outline: none;
-						}
-						.mechanics_item:before {
-							display: block;
-							content: '';
-							width: 100%;
-							height: 1px;
-							position: absolute;
-							border-top: 2px solid #707070;
-							top: 55px;
-							left: 0px;
-						}
-						.mechanics_item:last-child:before {
-							width: 100vh;
-							border-top: 2px dashed #707070;
-						}
-						.mechanics_item:after {
-							display: block;
-							content: url(img/125827.svg);
-							width: 40px;
-							height: 40px;
-							position: absolute;
-							background: #fff;
-							top: 35px;
-							left: 0px;
-						}
-						.mechanics_item h6 {
-							font: bold 18px/28px 'DIN Pro Cond';
-							color: #B23634;
-							position: relative;
-							padding-bottom: 15px;
-							/*padding-left: 28px;*/
-							margin-bottom: 10px;
-						}
-						/*.mechanics_item h6:before {
-							display: block;
-							counter-increment: mechanicsc;
-							content: "0" counter(mechanicsc) ".";
-							width: 20px;
-							height: 20px;
-							position: absolute;
-							top: 0;
-							left: 0;
-							font: bold 18px/28px 'DIN Pro Cond';
-							color: #707070;
-						}*/
-						.mechanics_item h6:after {
-							display: block;
-							content: '';
-							width: 90%;
-							height: 3px;
-							background: #B23634;
-							position: absolute;
-							bottom: 0;
-							/*left: 28px;*/
-						}
-						.mechanics_item p {
-							font: normal normal normal 16px/28px 'DIN Pro Cond';
-							color: #000000;
-							/*padding-left: 28px;*/
-						}
-
-						@media screen and (max-width: 768px) {
-							.mechanics {
-								padding-bottom: 50px;
-							}
-							.mechanics h2 span {
-								line-height: 40px;
-							}
-						}
-						@media screen and (max-width: 1200px) {
-							.docs_flex {
-								flex-direction: column;
-							}
-							.l2__docs_right {
-								text-align: left!important;
-							}
-							.l2__docs_right_img_wrap {
-								display: inline-block;
-								max-width: 100%;
-							}
-							.l2__docs_right_img_wrap img{
-								max-width: 100%;
-							}
-							.docs_flex ol li {
-								padding-right: 0!important;
-								margin-right: 0!important;
-							}
-						}
-						@media screen and (min-width: 1219px) {
-							.l__section_mechanics_heading_btn-prev, .l__section_mechanics_heading_btn-next {
-								display: none;
-							}
-
-						}
-					</style>	
 				<!-- /mechanics -->
 
 				<!-- price -->
@@ -1777,45 +2147,6 @@
 				<!-- price -->
 
 				<!-- services -->
-					<style>
-						.docs_flex {
-							display: flex;
-							width: 100%;
-						}
-						.l__docs-main {
-							flex-direction: column;
-							width: auto;
-						}
-						.l__docs-main li p,
-						.transp__section_description {
-							color: #fff!important;
-						}
-						.transp__section_description {
-							margin-top: 10px!important;
-							margin-bottom: 7px!important;
-						}
-						.l__docs-main li {
-							width: auto!important;
-							border-left: none!important;
-							padding-right: 80px!important;
-							padding-left: 0px!important;
-							margin-right: 80px!important;
-						}
-						.l2__docs_right {
-							text-align: center!important;
-						}
-						.l2__docs_right_img_wrap {
-							border: 4px solid #fff;
-							margin-top: 13px;
-							-webkit-box-shadow: 0px 3px 15px 0px rgba(255, 255, 71, 0.2);
-							-moz-box-shadow: 0px 3px 15px 0px rgba(255, 255, 71, 0.2);
-							box-shadow: 0px 3px 15px 0px rgba(255, 255, 71, 0.2);
-						}
-						.program_bg {
-							background: #3D4A63 url(img/back_pr_1.jpg) no-repeat!important;
-							background-size: cover!important;
-						}
-					</style>
 					<section class="center rs__services sip__services transp__services l__docs l__program section program_bg" id="admission">
 						<div class="title-button">
 							<h2 class="rs__section_heading sip__section_heading">
@@ -1872,141 +2203,6 @@
 				<!-- services -->
 
 				<!-- results -->
-				<style>
-					.results {
-						padding-bottom: 20px!important;
-					}
-					.results-card-list {
-						display: flex;
-						flex-direction: row;
-						justify-content: center;
-						flex-wrap: wrap;
-					}
-					.results-card-item {
-						padding-right: 15px;
-						padding-left: 15px;
-						margin-bottom: 30px;
-						box-sizing: border-box;
-					}
-					.results-card-top {
-						position: relative;
-						margin-left: 14px;
-						width: 310px;
-						height: 158px;
-						border-left: 3px solid gray;
-						border-right: 3px solid gray;
-						border-top: 3px solid gray;
-						border-radius: 10px 10px 0 0;
-					}
-					.results-card-top-content {
-						position: absolute;
-						left: 50%;
-						top: 50%;
-						transform: translate(-50%, -50%);
-					}
-					.results-card-bottom {
-						position: relative;
-						width: 340px;
-						height: 170px;
-						border-radius: 0 0 20px 20px;
-						-webkit-box-shadow: 0px -3px 6px 1px rgba(34, 60, 80, 0.2);
-						-moz-box-shadow: 0px -3px 6px 1px rgba(34, 60, 80, 0.2);
-						box-shadow: 0px -3px 6px 1px rgba(34, 60, 80, 0.2);
-					}
-					.results-card-bottom-red {
-						background-color: #b23634;
-					}
-					.results-card-bottom-red:after {
-						content: ''; 
-					    position: absolute;
-					    left: 50%; 
-					    top: -40px; 
-					    transform: translateX(-50%);
-					    border: 20px solid transparent; 
-					    border-bottom: 20px solid #b23634;
-					}
-					.results-card-bottom-blue {
-						background-color: #334059;
-					}
-					.results-card-bottom-blue:after {
-						content: ''; 
-					    position: absolute;
-					    left: 50%; 
-					    top: -40px; 
-					    transform: translateX(-50%);
-					    border: 20px solid transparent; 
-					    border-bottom: 20px solid #334059;
-					}
-					.results-card-bottom-content {
-						position: absolute;
-						top: 50%;
-						transform: translateY(-50%);
-						text-align: center;
-						width: 100%;
-						color: #fff;
-						font-family: 'Roboto', sans-serif;
-						font-weight: 400;
-						font-size: 25px;
-						line-height: 40px;
-					}
-					.results-card-number {
-						font-size: 50px;
-						padding-right: 5px;
-					}
-					@media screen and (max-width: 1220px) {
-						.results-card-item {
-							width: 33.33%;
-						}
-						.results-card-top {
-							width: calc(100% - 20px);
-							margin-left: 9px;
-						}
-						.results-card-bottom {
-							width: 100%;
-						}
-						.results-card-bottom-content {
-							font-size: 16px;
-						}
-						.results-card-number {
-							font-size: 28px
-						}
-					}
-					@media screen and (max-width: 768px) {
-						.results-card-item {
-							padding-right: 5px;
-							padding-left: 5px;
-						}
-						.results-card-top,
-						.results-card-bottom {
-							height: 50px;
-						}
-						.results-card-top img {
-							height: 30px;
-							margin-bottom: 10px;
-						}
-						.results-card-bottom-content {
-							font-size: 9px;
-							line-height: 12px;
-						}
-						.results-card-number {
-							font-size: 17px
-						}
-						.results-card-bottom-red:after {
-							left: 50%; 
-						    top: -14px; 
-						    transform: translateX(-50%);
-						    border: 7px solid transparent; 
-						    border-bottom: 7px solid #b23634;
-						}
-						.results-card-bottom-blue:after {
-							left: 50%; 
-						    top: -14px; 
-						    transform: translateX(-50%);
-						    border: 7px solid transparent; 
-						    border-bottom: 7px solid #334059;
-						}
-					}
-				</style>
 				<section class="results center rs__services sip__services transp__services l__price section" id="price">
 						<h2 class="rs__section_heading sip__section_heading">
 							<span>Итоги программы 2020</span>
@@ -2113,68 +2309,6 @@
 				<!-- results -->
 
 				<!-- feedback -->
-					<style>
-						.feedback-item {
-							width: 530px;
-							padding: 15px;
-							-webkit-box-shadow: 0px 2px 10px 0px rgba(34, 60, 80, 0.2);
-							-moz-box-shadow: 0px 2px 10px 0px rgba(34, 60, 80, 0.2);
-							box-shadow: 0px 2px 10px 0px rgba(34, 60, 80, 0.2);
-							margin: 10px;
-							outline: none;
-						}
-						.feedback-name {
-							font-family: 'Roboto', sans-serif;
-							font-size: 16px;
-							font-weight: 500;
-							line-height: 21px;
-							color: #B23634;
-							margin-bottom: 5px;
-						}
-						.feedback-post {
-							font-family: 'Roboto', sans-serif;
-							font-size: 12px;
-							line-height: 16px;
-							color: #334059;
-							margin-bottom: 15px;
-						}
-						.feedback-text {
-							font-family: 'Roboto', sans-serif;
-							font-size: 12px;
-							line-height: 18px;
-							color: #909EBB;
-							/*height: 54px;*/
-							overflow: hidden;
-							margin-bottom: 10px;
-						}
-						.feedback-readmore {
-							position: relative;		
-							text-align: right;	
-						}
-						.feedback-readmore a{
-							padding-right: 35px;
-							cursor: pointer;
-							outline: none;
-							font-family: 'Roboto', sans-serif;
-							font-size: 14px;
-							line-height: 19px;
-							color: #909EBB;
-						}
-						.feedback-readmore a:after {
-							position: absolute;
-							content: url('img/readmore.png');
-							top: 2px;
-							right: 10px;
-						}
-						.fancybox-content {
-							max-width: 80%;
-						}
-						@media screen and (max-width: 768px) {
-							.fancybox-content {
-								padding: 10px;
-							}
-						}
-					</style>
 					<section class="center section mechanics" id="mechanics">
 						<h2 class="rs__section_heading sip__section_heading">
 							<span>Отзывы участников</span>
